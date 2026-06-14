@@ -102,7 +102,7 @@ try:
     print(f"Success rate: %{accuracy:.2f}")
 
 except FileNotFoundError:
-    print("Hata: 'diabetes.csv' dosyası bulunamadı!")
+    print("Error: 'diabetes.csv' can not be found!")
 
 import matplotlib.pyplot as plt
 import seaborn as sns
