@@ -28,7 +28,7 @@ Through hyperparameter tuning, the optimal number of neighbors was determined to
 
 ---
 
-## 🛠️ Methodology & Mathematical Framework
+##  Methodology & Mathematical Framework
 1. **Euclidean Distance:** Multi-dimensional geometric distance is hardcoded as:
    $$\delta = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}$$
 2. **Sorting & Selection:** Neighbors are stored in a structured list, sorted in ascending order based on proximity, and the top $K$ instances are selected.
