@@ -118,7 +118,7 @@ cm = confusion_matrix(y_true, y_pred)
 
 print("\n--- MODEL DEĞERLENDİRME METRİKLERİ ---")
 print(f"Accuracy (Doğruluk) : %{acc*100:.2f}")
-print(f"Recall (Duyarlılık - Gerçek hastaları yakalama): %{recall*100:.2f}")
+print(f"Recall (Duyarlılık - Gerçek hastaları tahmin etme): %{recall*100:.2f}")
 
 # Confusion Matrix Visualization
 plt.figure(figsize=(7, 5))
